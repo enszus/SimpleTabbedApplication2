@@ -42,7 +42,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="834" y="-320"/>
+        </scene>
+        <!--Radu-->
+        <scene sceneID="a8a-LM-o2n">
+            <objects>
+                <viewController id="utg-dX-LCG" customClass="RaduViewController" customModule="TabedApplication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IIO-Y1-CSA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.1058823529" green="0.40784313729999999" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="4lV-za-I8f"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Radu" id="V5B-re-qwa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aCl-HT-afH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1" y="784"/>
         </scene>
         <!--Item-->
         <scene sceneID="WAF-da-YbB">
@@ -95,7 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="833" y="363"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -109,7 +125,11 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+<<<<<<< HEAD
                         <segue destination="840-BC-Cj5" kind="relationship" relationship="viewControllers" id="AcJ-r8-SIw"/>
+=======
+                        <segue destination="utg-dX-LCG" kind="relationship" relationship="viewControllers" id="PFS-v4-SNK"/>
+>>>>>>> master
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
