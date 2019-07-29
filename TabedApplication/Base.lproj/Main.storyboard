@@ -47,7 +47,7 @@
         <!--Item-->
         <scene sceneID="WAF-da-YbB">
             <objects>
-                <viewController id="840-BC-Cj5" sceneMemberID="viewController">
+                <viewController id="840-BC-Cj5" customClass="MariaViewController" customModule="TabedApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gZI-eZ-LBf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
