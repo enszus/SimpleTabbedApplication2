@@ -97,6 +97,22 @@
             </objects>
             <point key="canvasLocation" x="833" y="363"/>
         </scene>
+        <!--Teo-->
+        <scene sceneID="IPg-6D-JKI">
+            <objects>
+                <viewController id="Cj8-K8-JaY" customClass="TeoViewController" customModule="TabedApplication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p7G-kX-SZv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.72341748930000005" green="0.66359170089999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="0Co-74-TJT"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Teo" id="i0B-Nw-PPg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3je-En-pxy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1068" y="784"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -110,6 +126,7 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="utg-dX-LCG" kind="relationship" relationship="viewControllers" id="PFS-v4-SNK"/>
+                        <segue destination="Cj8-K8-JaY" kind="relationship" relationship="viewControllers" id="gHc-3M-O2s"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
