@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6825E0CE22EF23A200642EB2 /* RaduViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6825E0CD22EF23A200642EB2 /* RaduViewController.swift */; };
 		68A65A6C22EEAC1400E8261E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A65A6B22EEAC1400E8261E /* AppDelegate.swift */; };
 		68A65A6E22EEAC1400E8261E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A65A6D22EEAC1400E8261E /* FirstViewController.swift */; };
 		68A65A7022EEAC1400E8261E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A65A6F22EEAC1400E8261E /* SecondViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6825E0CD22EF23A200642EB2 /* RaduViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaduViewController.swift; sourceTree = "<group>"; };
 		68A65A6822EEAC1400E8261E /* TabedApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabedApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A65A6B22EEAC1400E8261E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68A65A6D22EEAC1400E8261E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				68A65A6B22EEAC1400E8261E /* AppDelegate.swift */,
 				68A65A6D22EEAC1400E8261E /* FirstViewController.swift */,
 				68A65A6F22EEAC1400E8261E /* SecondViewController.swift */,
+				6825E0CD22EF23A200642EB2 /* RaduViewController.swift */,
 				68A65A7122EEAC1400E8261E /* Main.storyboard */,
 				68A65A7422EEAC1A00E8261E /* Assets.xcassets */,
 				68A65A7622EEAC1A00E8261E /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				68A65A7022EEAC1400E8261E /* SecondViewController.swift in Sources */,
 				68A65A6C22EEAC1400E8261E /* AppDelegate.swift in Sources */,
+				6825E0CE22EF23A200642EB2 /* RaduViewController.swift in Sources */,
 				68A65A6E22EEAC1400E8261E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
