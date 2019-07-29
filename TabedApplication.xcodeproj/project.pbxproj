@@ -13,6 +13,7 @@
 		68A65A7322EEAC1400E8261E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A65A7122EEAC1400E8261E /* Main.storyboard */; };
 		68A65A7522EEAC1A00E8261E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A65A7422EEAC1A00E8261E /* Assets.xcassets */; };
 		68A65A7822EEAC1A00E8261E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A65A7622EEAC1A00E8261E /* LaunchScreen.storyboard */; };
+		A3E1EE9822EF1F45009EB055 /* MariaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E1EE9722EF1F45009EB055 /* MariaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		68A65A7422EEAC1A00E8261E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68A65A7722EEAC1A00E8261E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68A65A7922EEAC1A00E8261E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3E1EE9722EF1F45009EB055 /* MariaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MariaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				68A65A7422EEAC1A00E8261E /* Assets.xcassets */,
 				68A65A7622EEAC1A00E8261E /* LaunchScreen.storyboard */,
 				68A65A7922EEAC1A00E8261E /* Info.plist */,
+				A3E1EE9722EF1F45009EB055 /* MariaViewController.swift */,
 			);
 			path = TabedApplication;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68A65A7022EEAC1400E8261E /* SecondViewController.swift in Sources */,
+				A3E1EE9822EF1F45009EB055 /* MariaViewController.swift in Sources */,
 				68A65A6C22EEAC1400E8261E /* AppDelegate.swift in Sources */,
 				68A65A6E22EEAC1400E8261E /* FirstViewController.swift in Sources */,
 			);
